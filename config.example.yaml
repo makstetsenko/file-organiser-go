@@ -1,0 +1,17 @@
+files_organisation:
+  - source: 
+    - "/path/to/files/template/*.png"
+    destination: "./my/directory/with/png"
+  
+  - source: 
+    - "/path/to/files/template/*.jpg"
+    - "/path/to/files/template/*.jpeg"
+    destination: "./my/directory/with/jpg"
+
+  - source: 
+    - "/path/to/files/template/*.mp4"
+    - "/path/to/files/template/*.m4a"
+    - "/path/to/files/template/*.mov"
+    - "/path/to/files/template/*.MOV"
+    destination: "./my/directory/with/Movies"
+  
