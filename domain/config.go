@@ -12,7 +12,7 @@ type OrganisationConfig struct {
 }
 
 type FileOrganisationConfig struct {
-	SourceFiles []string `yaml:"files"`
+	SourceFiles []string `yaml:"source"`
 	Destination string   `yaml:"destination"`
 }
 
